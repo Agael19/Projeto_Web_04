@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imgConteiner img{
+    transition: 7s;
+    cursor: pointer;
+}
+
+.imgConteiner{
+    transform: rotate(90deg);
+}
+
+
+.mainConteiner{
+    background-color: rgb(98, 165, 196);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    height: 100px;
+
+}
+
+.linkConteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.linkConteiner a{
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+    height: 100px;
+    align-content: center;
+    transition: .4s;
+
+
+}
+.linkConteiner a:hover{
+    background-color: rgb(5, 42, 77);
+    color: white;
+}
+.backgroundConteiner{
+    background: url(/Walpaper_04.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.infoContent {
+    margin: auto;
+    padding: 20px;
+    padding-left: 50px;
+    width: 40%;
+    text-align: start;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.63);
+    border-radius: 10px;
+    background-color: rgba(22, 93, 173, 0.425);
+    border: 1px solid black;
+    margin: auto;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6) ;
+}
+.button{
+    border-style: hidden;
+    padding: 8px 16px;
+    border-radius: 22px;
+    background-color: rgb(98, 165, 196);
+     color: black;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(5, 42, 77);
+    color: white;
+    transition: .4s;
+}
+@keyframes bounce {
+    0%{rotate: 0;}
+    50%{rotate: 360deg;}
+}
+.closeButton{
+display: flex;
+justify-content: center;
+margin-bottom: 10px;
+}
+.mainButton{
+display: flex;
+justify-content: center;
+}
+.mainInfon{
+    width: 35%;
+}
+.imgTitleConteiner{
+    filter: drop-shadow(2px 2px 10px rgb(75, 135, 245));
+}
+.mainInfon h1{
+    text-align: center;
+ }
+ .mainInfon p{
+    text-align: justify;
+
+ }
+ 
+
